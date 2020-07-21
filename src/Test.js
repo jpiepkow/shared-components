@@ -1,4 +1,10 @@
 import React from 'react';
+import styled from 'styled-components';
+import { Button } from '@material-ui/core';
+const Test = styled(Button)`
+	&& {
+		background-color: yellow;
+	}
+`
 
-const Test = () => (<p>This is a test2</p>)
 export default Test;
